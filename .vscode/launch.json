@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "VulkanApp Debug",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/Debug/VulkanApp.exe", // Replace this with the path to your actual executable
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "console": true,
+        "preLaunchTask": "build VulkanApp",  // Replace this with your actual build task if you have one
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
